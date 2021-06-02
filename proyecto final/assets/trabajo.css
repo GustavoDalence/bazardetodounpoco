@@ -1,0 +1,207 @@
+body{
+    familia de fuentes: 'Lector de noticias', serif;
+}
+header{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    text-transform: capitalize;
+    height: auto;
+    margin: auto; 
+}
+  .contenido{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 5px, 10px, 7px, 15px;
+    background-image: linear-gradient(pink, beige);           
+}
+/*aca empieza el body*/
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px;
+}
+h2{ color: blueviolet;
+    text-align: center;
+    text-decoration: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+}
+h3{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    
+} 
+h4{
+  padding: 10px;
+}
+.tienda{
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.grid{
+  display: flex;
+}
+
+.tridenteUno{
+  width: 33%;
+  padding: right 40px;
+  padding: 10px;
+  text-align: center;
+}
+.tridenteDos{
+  align-content: center;
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+}
+.tridenteTres{
+  align-content: flex-end;
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+}
+.formulario{
+    display: block;
+    padding: 50px 100px 50px 50px;
+    margin-left: 40%;
+    flex-wrap: nowrap;
+    width: 20%;
+    height: 20%;
+}
+/* margenes, block, y bordes*/
+.fotosProd{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fotosProdDos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ul .a {
+        display: block;
+        padding: 20px 30px;
+        margin: 100%
+}
+.ul .liv{
+    display: block;
+    padding: 10px;
+    flex-wrap: nowrap;
+    float: left;
+}
+    /*aca empieza el footer*/
+    footer{
+    background-color: cornflowerblue;
+    }
+.mediosPago{
+        text-align: left;
+        text-transform: capitalize;
+}
+.envios{
+        text-align: center; 
+        text-transform: capitalize;       
+}
+.contactos{
+        text-align: right; 
+        text-transform: capitalize;      
+}
+.finalPagina{
+        text-align: center;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+}  
+    /* aca termina el footer*/
+    /* animaciones */
+   
+      .fotosProd {
+        animation-duration: 2s;
+        animation-name: slidein;
+      }
+
+     
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+        75% {
+            font-size: 300%;
+            margin-left: 25%;
+            width: 150%;
+          }
+        
+      }
+      .fotosProdDos {
+        animation-duration: 2s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+        75% {
+            font-size: 300%;
+            margin-left: 25%;
+            width: 150%;
+          }
+        
+      }
+      h2{
+        animation-duration: 2s;
+        animation-name: slidein;
+      }
+
+     
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      .main{
+
+      }
+      .grilla{
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+        "header header header" 100px
+        "main main nav" 50px
+        "footer footer footer" 50px
+        
+      }
+      header{
+        background-color: blue;
+      }
+      footer{
+        background-image: linear-gradient( beige, pink);
+      }
+      main{
+        background-color: beige
+      }
+     
